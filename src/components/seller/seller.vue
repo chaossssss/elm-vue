@@ -41,6 +41,7 @@
         </div>
         <ul class="supports">
           <li class="support-item border-1px" v-for="(supportItem, index) in seller.supports">
+            <icon :iconType="seller.supports[index].type" :iconSeries="4"></icon>
             <span class="text">{{seller.supports[index].description}}</span>
           </li>
         </ul>
@@ -72,6 +73,7 @@ import BScroll from 'better-scroll'
 import {saveToLocal, loadFromlLocal} from '../../common/js/store.js'
 import star from '../star/star'
 import split from '../split/split'
+import icon from '../icon/icon'
 export default {
   props: ['seller'],
   data () {
@@ -137,7 +139,7 @@ export default {
     }
   },
   components: {
-    star, split
+    star, split, icon
   }
 }
 </script>

@@ -1,6 +1,13 @@
 # elm-app
 
-> 使用vue2.0开发，小球动画未实现
+> 使用vue2.0开发的网页版饿了么
+
+
+在线地址：https://chaossssss.github.io/elm
+
+扫码访问
+<img width="180" height="180" src="https://github.com/chaossssss/elm-vue/blob/master/qrcode/elm.png" alt="扫我😄">
+
 
 ## Build Setup
 
